@@ -1,6 +1,6 @@
 # Intro Image Trail Animation
 
-An intro animation with various animation stages.
+An intro animation with several layout changes and various effect.
 
 ![Image Title](https://tympanus.net/codrops/wp-content/uploads/2022/05/introtrail_feat.jpg)
 
