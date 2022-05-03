@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Intro Image Trail Animation | Codrops</title>
+		<meta name="description" content="An intro animation with various animation stages." />
+		<meta name="keywords" content="intro animation, gsap, flip plugin, image trail, loading" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://use.typekit.net/ubi4yxd.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="frame">
+				<h1 class="frame__title">Intro Image Trail Animation</h1>
+
+				<nav class="frame__links">
+					<a href="http://tympanus.net/Development/TextRepetitionEffect/">Previous demo</a>
+					<a href="https://tympanus.net/codrops/?p=63293">Article</a>
+					<a href="https://github.com/codrops/IntroTrailEffect">GitHub</a>
+				</nav>
+			</div>
+
+			<h2 class="logo">
+				<span class="logo__layer logo__layer--1" aria-hidden="true">ZD</span>
+				<span class="logo__layer logo__layer--2" aria-hidden="true">ZD</span>
+				<span class="logo__layer logo__layer--3">ZD</span>
+			</h2>
+
+			<button class="unbutton button-menu" aria-label="Open menu"></button>
+
+			<span class="intro-progress">0%</span>
+
+			<div class="intro-image" style="background-image:url(img/1.jpg);"></div>
+
+			<div class="intro-content">
+				<div class="intro-content__title intro-content__title--up">Zofia</div>
+				<div class="intro-content__image">
+					<!-- new place for intro-image -->
+				</div>
+				<div class="intro-content__title intro-content__title--down">Dab<em>ro</em>wski</div>
+			</div>
+
+			<button class="unbutton button-enter">
+				<span>Enter</span>
+			</button>
+
+			<div class="content">
+				<div class="content__title content__title--up"></div>
+				<div class="content__title content__title--down"></div>
+				<div class="content__about">
+					<h4 class="content__about-title">About</h4>
+					<div class="content__about-text">
+						Some time ago a group of people were sitting in a restaurant, and one of them asked the others to say what they meant by Reality.
+						There was much vague discussion, much talk of metaphysics and psychology, but one of those present, when asked his opinion, simply shrugged his shoulders and pointed at the saltshaker.
+					</div>
+				</div>
+				<div class="content__image content__image--1">
+					<div class="content__image-inner" style="background-image:url(img/2.jpg);"></div>
+				</div>
+				<div class="content__image content__image--2">
+					<!-- final place for intro-image --> 
+				</div>
+				<div class="content__image content__image--3">
+					<div class="content__image-inner" style="background-image:url(img/3.jpg);"></div>
+				</div>
+			</div>
+
+		</main>
+		<script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
+		<script type="module" src="js/index.js"></script>
+	</body>
+</html>
